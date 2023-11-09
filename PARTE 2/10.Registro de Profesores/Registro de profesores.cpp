@@ -23,3 +23,9 @@ public:
         std::cout << "Años de experiencia: " << experiencia << std::endl;
     }
 };
+int main() {
+    Profesor profesor("Adriana", 18, "Programacion", 10);
+    profesor.mostrar_info_profesor();
+
+    return 0;
+}
