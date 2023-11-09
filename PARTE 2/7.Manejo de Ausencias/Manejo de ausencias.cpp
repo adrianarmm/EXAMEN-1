@@ -22,7 +22,10 @@ int main() {
     RegistroAsistencia asistencia("5/11/2023", "Asistió");
     RegistroAsistencia asistencia2("6/11/2023", "No asistió");
     RegistroAsistencia asistencia3("7/11/2023", "Tarde");
+
     asistencia.mostrar_asistencia();
+    asistencia2.mostrar_asistencia();
+    asistencia3.mostrar_asistencia();
 
     return 0;
 }
