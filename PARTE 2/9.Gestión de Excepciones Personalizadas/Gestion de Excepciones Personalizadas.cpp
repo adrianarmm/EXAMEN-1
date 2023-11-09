@@ -32,6 +32,7 @@ public:
             cout << materia << endl;
         }
     }
+private:
 
 
 };
