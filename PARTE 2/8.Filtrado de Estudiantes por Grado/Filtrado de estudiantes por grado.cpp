@@ -25,3 +25,8 @@ int main() {
     estudiantes.push_back(Estudiante("Nerea", 5));
     estudiantes.push_back(Estudiante("Vitaliy", 4));
     estudiantes.push_back(Estudiante("Sebas", 6));
+
+    cout << "Grados disponibles:\n";
+    for (const Estudiante& estudiante : estudiantes) {
+        cout << estudiante.obtenerNombre() << " - Grado " << estudiante.obtenerGrado() << endl;
+    }
