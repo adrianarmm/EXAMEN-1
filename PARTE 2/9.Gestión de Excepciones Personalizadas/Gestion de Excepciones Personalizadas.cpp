@@ -47,7 +47,7 @@ int main() {
         estudiante.mostrarMaterias();
     }
     catch (const MateriaYaRegistradaException& e) {
-        cout << "La materia " << e.getMateria() << " ya está registrada" << endl;
+        cerr << "La materia " << e.getMateria() << " ya está registrada" << endl;
     }
 
 };
