@@ -34,3 +34,10 @@ int main() {
 int gradoBuscado;
 cout << "Elija un grado para filtrar: ";
 cin >> gradoBuscado;
+
+cout << "Estudiantes del grado " << gradoBuscado << ":\n";
+for (const Estudiante& estudiante : estudiantes) {
+    if (estudiante.obtenerGrado() == gradoBuscado) {
+        cout << estudiante.obtenerNombre() << endl;
+    }
+}
