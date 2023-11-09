@@ -9,3 +9,7 @@ int main() {
     std::cin >> num1;
     std::cout << "Ingrese el segundo número: ";
     std::cin >> num2;
+
+    int resultado = sumaEnteros(num1, num2);
+
+    std::cout << "La suma de 3 " << num1 << " y 2 " << num2 << " es: 5 " << resultado << std::endl;
