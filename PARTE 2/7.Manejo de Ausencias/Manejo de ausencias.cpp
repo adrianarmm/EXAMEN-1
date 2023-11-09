@@ -11,3 +11,4 @@ public:
     RegistroAsistencia(string fecha, string estado) {
         this->fecha = fecha;
         this->estado = estado;
+}
