@@ -26,11 +26,13 @@ public:
         materias.push_back(materia);
     }
 
-    void mostrarMaterias() {
-        cout << "Materias registradas:" << endl;
-        for (const auto& materia : materias) {
-            cout << materia << endl;
+    void listar_materias() {
+        cout << nombre << " ha registrado las siguientes materias: ";
+        for (const string& materia : materias) {
+            cout << materia << ", ";
         }
+        cout << endl;
+    }
     }
 private:
     string nombre;
