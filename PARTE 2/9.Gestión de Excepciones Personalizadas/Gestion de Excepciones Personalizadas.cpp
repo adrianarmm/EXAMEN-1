@@ -39,5 +39,15 @@ private:
 int main() {
     Estudiante estudiante("Adriana Reyes");
 
+    try {
+        estudiante.registrarMateria("Matemáticas");
+        estudiante.registrarMateria("Informática");
+        estudiante.registrarMateria("Programación");
+        estudiante.registrarMateria("Programación");
+        estudiante.mostrarMaterias();
+    }
+    catch (const MateriaYaRegistradaException& e) {
+        cout << "La materia " << e.getMateria() << " ya está registrada" << endl;
+    }
 
 };
