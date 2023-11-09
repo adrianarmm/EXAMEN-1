@@ -10,6 +10,8 @@ public:
     string getMateria() const {
         return materia;
     }
-
+private:
+    string materia;
+};
 
 };
