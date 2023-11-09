@@ -19,3 +19,4 @@ public:
 };
 int main() {
     Estudiante estudiante;
+    estudiante.registrar_materia("Matemáticas");
