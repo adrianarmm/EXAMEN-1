@@ -27,6 +27,7 @@ int main() {
     Profesor profesor("David", 35, "Programacion", 10);
     Profesor profesor2("Jaime", 50, "Programacion", 20);
     profesor.mostrar_info_profesor();
+    profesor2.mostrar_info_profesor();
 
     return 0;
 }
