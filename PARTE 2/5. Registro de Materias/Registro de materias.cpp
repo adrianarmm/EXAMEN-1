@@ -20,7 +20,7 @@ public:
 int main() {
     Estudiante estudiante;
     estudiante.registrar_materia("Matemáticas");
-    estudiante.registrar_materia("Historia");
+    estudiante.registrar_materia("Informática");
     estudiante.registrar_materia("Programación");
     estudiante.mostrar_materias();
 
