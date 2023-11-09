@@ -5,3 +5,6 @@ void intercambiar(int& a, int& b) {
     a = b;
     b = temp;
 }
+int main() {
+    int num1 = 2;
+    int num2 = 20;
