@@ -36,8 +36,10 @@ private:
     string nombre;
     vector<string> materias;
 };
+
 int main() {
     Estudiante estudiante("Adriana Reyes");
+
     try {
         estudiante.registrar_materia("Matematicas");
         estudiante.registrar_materia("Historia");
