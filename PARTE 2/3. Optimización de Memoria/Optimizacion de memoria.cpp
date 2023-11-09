@@ -1,5 +1,4 @@
 #include <iostream>
-
 void intercambiar(int& a, int& b)
 {
     int temp = a;
@@ -18,3 +17,4 @@ int main()
     std::cout << "Después del intercambio: num1 = " << num1 << ", num2 = " << num2 << std::endl;
     return 0;
 }
+
