@@ -14,7 +14,9 @@ private:
     string materia;
 };
 class Estudiante {
+public:
     Estudiante(string nombre) : nombre(nombre) {}
+
 
 
 };
