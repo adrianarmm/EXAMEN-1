@@ -10,4 +10,7 @@ public:
     string obtenerNombre() const {
         return nombre;
     }
+    int obtenerGrado() const
+    {
+        return grado;
         };
