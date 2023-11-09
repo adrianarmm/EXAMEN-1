@@ -18,3 +18,9 @@ public:
         cout << "Estado: " << estado << endl;
     }
 };
+int main() {
+    RegistroAsistencia asistencia("5/11/2023", "Asistió");
+    asistencia.mostrar_asistencia();
+
+    return 0;
+}
