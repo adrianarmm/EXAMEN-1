@@ -26,6 +26,12 @@ public:
         materias.push_back(materia);
     }
 
+    void mostrarMaterias() {
+        cout << "Materias registradas:" << endl;
+        for (const auto& materia : materias) {
+            cout << materia << endl;
+        }
+    }
 
 
 };
