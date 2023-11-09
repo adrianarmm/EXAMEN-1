@@ -21,3 +21,4 @@ int main() {
     Estudiante estudiante;
     estudiante.registrar_materia("Matemáticas");
     estudiante.registrar_materia("Historia");
+    estudiante.registrar_materia("Programación");
