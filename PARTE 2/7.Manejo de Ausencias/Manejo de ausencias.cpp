@@ -12,3 +12,9 @@ public:
         this->fecha = fecha;
         this->estado = estado;
 }
+
+    void mostrar_asistencia() {
+        cout << "Fecha: " << fecha << endl;
+        cout << "Estado: " << estado << endl;
+    }
+};
