@@ -10,14 +10,16 @@ public:
     string getMateria() const {
         return materia;
     }
+
 private:
     string materia;
 };
+
 class Estudiante {
 public:
     Estudiante(string nombre) : nombre(nombre) {}
 
-    void registrarMateria(const string& materia) {
+    void registrar_materia(const string& materia) {
         for (const string& materiaRegistrada : materias) {
             if (materiaRegistrada == materia) {
                 throw MateriaYaRegistradaException(materia);
@@ -33,7 +35,7 @@ public:
         }
         cout << endl;
     }
-    }
+
 private:
     string nombre;
     vector<string> materias;
