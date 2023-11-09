@@ -20,3 +20,5 @@ private:
 };
 int main() {
     vector<Estudiante> estudiantes;
+    estudiantes.push_back(Estudiante("Adriana", 5));
+    estudiantes.push_back(Estudiante("Zoe", 6));
