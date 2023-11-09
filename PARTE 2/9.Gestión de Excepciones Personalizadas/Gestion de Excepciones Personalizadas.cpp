@@ -3,4 +3,7 @@
 #include <string>
 
 using namespace std;
-class Estudiante {
+class MateriaYaRegistradaException {
+
+
+};
