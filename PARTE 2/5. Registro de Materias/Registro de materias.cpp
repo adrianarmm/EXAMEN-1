@@ -1,3 +1,8 @@
-//
-// Created by Adriana Reyes Morera on 9/11/23.
-//
+#include <iostream>
+#include <vector>
+#include <string>
+
+class Estudiante {
+private:
+    std::vector<std::string> materias;
+
