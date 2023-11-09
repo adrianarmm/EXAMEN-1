@@ -38,16 +38,16 @@ private:
 };
 int main() {
     Estudiante estudiante("Adriana Reyes");
-
     try {
-        estudiante.registrarMateria("Matemáticas");
-        estudiante.registrarMateria("Informática");
-        estudiante.registrarMateria("Programación");
-        estudiante.registrarMateria("Informática");
-        estudiante.mostrarMaterias();
-    }
-    catch (const MateriaYaRegistradaException& e) {
-        cerr << "La materia " << e.getMateria() << " ya está registrada" << endl;
+        estudiante.registrar_materia("Matematicas");
+        estudiante.registrar_materia("Historia");
+        estudiante.registrar_materia("Programacion");  // Esta materia ya fue registrada
+        estudiante.registrar_materia("Ciencias");
+
+        estudiante.listar_materias();
+    } catch (const MateriaYaRegistradaException& ex) {
+        cerr << "Error: La materia '" << ex.getMateria() << "' ya ha sido registrada." << endl;
     }
 
-};
+    return 0;
+}
