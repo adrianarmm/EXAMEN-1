@@ -14,3 +14,10 @@ std::cout << "Ingrese el primer número: ";
 std::cin >> num1;
 std::cout << "Ingrese el segundo número: ";
 std::cin >> num2;
+
+try {
+divide(num1, num2);
+} catch (const char* error) {
+std::cout << "Excepción capturada: " << error << std::endl;
+}
+
