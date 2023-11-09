@@ -43,7 +43,7 @@ int main() {
         estudiante.registrarMateria("Matemáticas");
         estudiante.registrarMateria("Informática");
         estudiante.registrarMateria("Programación");
-        estudiante.registrarMateria("Programación");
+        estudiante.registrarMateria("Informática");
         estudiante.mostrarMaterias();
     }
     catch (const MateriaYaRegistradaException& e) {
