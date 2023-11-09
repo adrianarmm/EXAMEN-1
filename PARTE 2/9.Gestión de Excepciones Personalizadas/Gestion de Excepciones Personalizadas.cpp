@@ -33,6 +33,9 @@ public:
         }
     }
 private:
+    string nombre;
+    vector<string> materias;
+};
 
 
 };
