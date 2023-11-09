@@ -14,3 +14,5 @@ int main() {
     intercambiar(num1, num2);
 
     std::cout << "Después del intercambio: num1 = " << num1 << ", num2 = " << num2 << std::endl;
+    return 0;
+}
