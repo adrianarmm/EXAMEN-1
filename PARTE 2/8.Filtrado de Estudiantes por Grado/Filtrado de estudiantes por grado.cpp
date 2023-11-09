@@ -31,6 +31,7 @@ int main() {
         cout << estudiante.obtenerNombre() << " - Grado " << estudiante.obtenerGrado() << endl;
     }
 
+
 int gradoBuscado;
 cout << "Elija un grado para filtrar: ";
 cin >> gradoBuscado;
@@ -41,3 +42,6 @@ for (const Estudiante& estudiante : estudiantes) {
         cout << estudiante.obtenerNombre() << endl;
     }
 }
+
+        return 0;
+    }
