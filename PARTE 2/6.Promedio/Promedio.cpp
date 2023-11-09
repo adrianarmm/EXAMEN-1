@@ -1,3 +1,8 @@
-//
-// Created by Adriana Reyes Morera on 9/11/23.
-//
+#include <iostream>
+#include <vector>
+
+double calcularPromedio(const std::vector<int>& calificaciones) {
+    int suma = 0;
+    for (int calificacion : calificaciones) {
+        suma += calificacion;
+    }
