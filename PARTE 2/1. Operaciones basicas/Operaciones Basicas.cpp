@@ -13,3 +13,6 @@ int main() {
     int resultado = sumaEnteros(num1, num2);
 
     std::cout << "La suma de 3 " << num1 << " y 2 " << num2 << " es: 5 " << resultado << std::endl;
+
+    return 0;
+}
