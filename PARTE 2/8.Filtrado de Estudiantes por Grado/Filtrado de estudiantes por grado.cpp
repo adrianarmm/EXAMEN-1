@@ -22,3 +22,6 @@ int main() {
     vector<Estudiante> estudiantes;
     estudiantes.push_back(Estudiante("Adriana", 5));
     estudiantes.push_back(Estudiante("Zoe", 6));
+    estudiantes.push_back(Estudiante("Nerea", 5));
+    estudiantes.push_back(Estudiante("Vitaliy", 4));
+    estudiantes.push_back(Estudiante("Sebas", 6));
