@@ -8,7 +8,8 @@ void divide(int a, int b)
     int result = a / b;
     std::cout << "El resultado de la división es: " << result << std::endl;
 }
-
+int main()
+{
 int num1, num2;
 std::cout << "Ingrese el primer número: ";
 std::cin >> num1;
