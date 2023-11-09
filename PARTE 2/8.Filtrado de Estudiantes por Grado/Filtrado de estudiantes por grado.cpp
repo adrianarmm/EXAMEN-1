@@ -3,4 +3,5 @@
 #include <string>
 
 using namespace std;
-class Estudiante {
+class Estudiante
+        {
