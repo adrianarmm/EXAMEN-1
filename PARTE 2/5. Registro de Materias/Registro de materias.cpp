@@ -22,3 +22,6 @@ int main() {
     estudiante.registrar_materia("Matemáticas");
     estudiante.registrar_materia("Historia");
     estudiante.registrar_materia("Programación");
+    estudiante.mostrar_materias();
+
+    return 0;
