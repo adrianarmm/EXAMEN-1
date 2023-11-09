@@ -30,4 +30,5 @@ int main() {
     profesor2.mostrar_info_profesor();
 
     return 0;
+
 }
