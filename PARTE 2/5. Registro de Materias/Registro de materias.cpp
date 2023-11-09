@@ -17,3 +17,5 @@ public:
         }
     }
 };
+int main() {
+    Estudiante estudiante;
