@@ -18,3 +18,5 @@ private:
     string nombre;
     int grado;
 };
+int main() {
+    vector<Estudiante> estudiantes;
