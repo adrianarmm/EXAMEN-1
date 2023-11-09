@@ -21,3 +21,9 @@ public:
         cout << "Grado: " << grado << endl;
     }
 };
+int main() {
+    Estudiante estudiante("Adriana Reyes", 18, " 1 carrera");
+    estudiante.mostrar_info();
+
+    return 0;
+}
