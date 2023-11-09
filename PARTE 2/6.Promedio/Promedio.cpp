@@ -7,3 +7,4 @@ double calcularPromedio(const std::vector<int>& calificaciones) {
         suma += calificacion;
     }
     double promedio = static_cast<double>(suma) / calificaciones.size();
+    return promedio;
