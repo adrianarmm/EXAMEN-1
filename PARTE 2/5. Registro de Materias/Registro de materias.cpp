@@ -16,3 +16,4 @@ public:
             std::cout << materia << std::endl;
         }
     }
+};
