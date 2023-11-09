@@ -15,3 +15,8 @@ int main() {
     std::cout << "Ingrese las calificaciones de los alumnos: " << std::endl;
     while (std::cin >> calificacion)
         calificaciones.push_back(calificacion);
+
+        double promedio = calcularPromedio(calificaciones);
+        std::cout << "El promedio de las calificaciones es: " << promedio << std::endl;
+        return 0;
+    }
