@@ -7,3 +7,5 @@ private:
     int edad;
     std::string materia;
     int experiencia;
+
+public:
