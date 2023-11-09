@@ -1,7 +1,7 @@
 # EXAMEN-1
 https://github.com/adrianarmm/EXAMEN-1.git
 
-Para ingresar en cada parte hay creada una carpeta con respectivo nombre, y dentro de la PARTE 2, hay creadas mas carpetas con los ejercicios propuestos, dentro estara el ejercicio en cpp.
+Aqui puedes ver la PARTE 1 y PARTE 3, el ejercicio propuesto y consigo las respuestas correspondientes , y hay una carpeta subida con el nombre PARTE 2, donde hay creadas mas carpetas con los ejercicios propuestos, dentro estaran los ejercicio en cpp.
 
 PARTE 1
 1. C++ es un lenguaje de programación ampliamente utilizado que ha evolucionado a lo largo de los años. ¿Cuáles de las siguientes opciones describen correctamente las características centrales de C++?
